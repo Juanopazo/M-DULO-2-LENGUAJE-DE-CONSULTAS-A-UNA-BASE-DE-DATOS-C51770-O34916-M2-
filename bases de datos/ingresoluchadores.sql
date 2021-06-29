@@ -1,0 +1,2 @@
+insert into luchadores (nombre, nacionalidad,nombreReal, peso, altura, edad, añodebut, titulosganados, movimientofinal, rankingPWI)
+values ('Chris Benoit', 'Canadiense', 'Christopher Michael benoit', '100', '1.80', '40', '1985', '25', 'cripple crossface', '14');

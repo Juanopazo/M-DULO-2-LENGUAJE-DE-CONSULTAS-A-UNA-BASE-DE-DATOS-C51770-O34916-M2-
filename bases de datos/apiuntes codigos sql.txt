@@ -1,0 +1,25 @@
+--ingresar columna de turnos AM o PM--
+
+alter table empleados add column turno varchar(20);
+
+--ingreso de registros a columna turno--
+insert into empleados (turno)
+values (AM, PM, AM, PM, AM, AM, AM, PM, PM, PM, AM, PM, AM, AM, PM);
+
+
+
+--  ordenamiento de  registro de tabla empleados por apellido paterno--
+
+select * from empleados order by apellidoP asc;
+
+--modificacion columna añopublicacion por formato de solo año--
+alter table libros modify añoPublicacion year(4);
+
+
+---añadi campo ranking en tabla luchadores---
+alter table luchadores add column rankingPWI int;
+
+--elemine campo idluchador en tabla luchadores--
+alter table luchadores drop column idluchador;
+
+
